@@ -1,0 +1,969 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dream Interpretation Center - DreamLookUp</title>
+<link rel="shortcut icon" href="https://www.dreamlookup.com/favicon.ico" />
+<link rel="apple-touch-icon" href="https://www.dreamlookup.com/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="Everyone has dreams and every dreaming experience is unique and personal.">
+<meta name="robots" content="follow, index">
+<meta name="author" content="Alri MENERSKY, Ajit Arote, ajitarote123@gmail.com" />
+<link rel="canonical" href="https://www.dreamlookup.com/" />
+<meta property="og:image" content="https://www.dreamlookup.com/assets2022/img/logo.webp" />
+<meta property="og:site_name" content="www.DreamLookup.com" />
+<meta property="og:url" content="https://www.dreamlookup.com/" />
+<meta property="og:title" content="Dream Interpretation Center - DreamLookUp" />
+<meta property="og:description" content="Everyone has dreams and every dreaming experience is unique and personal." />
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-41235742-1', 'dreamlookup.com');
+      ga('send', 'pageview');
+
+    </script>
+<link type="application/opensearchdescription+xml" rel="search" href="https://www.dreamlookup.com/osdd.xml" />
+<script type="application/ld+json">
+        {
+            "@context": "http://schema.org", 
+            "@type": "WebSite", 
+            "url": "https://www.dreamlookup.com/", 
+            "potentialAction": 
+            { 
+                "@type": "SearchAction", 
+                "target": "https://www.dreamlookup.com/search?query={query}", 
+                "query-input": "required name=query"
+            }
+        }
+    </script>
+<link href="https://www.dreamlookup.com/assets2022/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://www.dreamlookup.com/assets2022/css/carousel.css?v1" rel="stylesheet">
+
+<style type="text/css">
+      body {
+        color: #444;
+      }
+      .customizescrollbar::-webkit-scrollbar {
+        width: 0.5rem;
+        height: 0.5rem;
+      }
+
+      .customizescrollbar::-webkit-scrollbar-button {
+        /*display: none;*/
+      }
+
+      .customizescrollbar::-webkit-scrollbar-thumb {
+        border-radius: 50px;
+        background: #607d8b;
+      }
+
+      .customizescrollbar::-webkit-scrollbar-track {
+        border-radius: 50px;
+        border: gray solid 1px;
+      }
+
+      .noscrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+        transform: scale(0.01);
+        opacity: 0; 
+      }
+      .btn.btn-outline-primary.donoptbtn, .btn.btn-outline-primary.donfrmsubmit
+      {
+        color: white;
+        border-color: white;
+      }
+      header>nav {
+        box-shadow: 0px -5px 15px 0px black;
+        min-height: 67px;
+      }
+      .navbar-brand img {
+        width: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .navbar-collapse.collapse.show {
+          padding-top: 33px;
+      }
+      .navbar-light .navbar-nav .nav-link {
+        color: #0b5ca6!important;
+        font-size: 25px;
+        font-weight: 400;
+        text-shadow: none;
+      }
+      .navbar-light .navbar-nav .nav-link:hover {
+        text-shadow: 0 0 2px #0b5ca6;
+      }
+      main {
+        margin-top: 20px;
+      }
+      #lookupdiv form#lookupform {
+        position: absolute;
+        width: 100%;
+        margin-left: calc(var(--bs-gutter-x) * -.5);
+        margin-right: calc(var(--bs-gutter-x) * -.5);
+        margin-top: 3rem;
+      }
+      #lookupdiv form .input-group{
+        width: auto;
+        max-width: 320px;
+        margin: auto;
+      }
+      #lookupdiv form label {
+        color: gray;
+      }
+      #lookupdiv .close{
+        display: none!important;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+      }
+      /*Lookup form make big*/
+      #lookupdiv.makebig form#lookupform{
+        position: relative;
+      }
+      #rlist{
+        display: flex;
+        flex-direction: column;
+      }
+      #lookupdiv .rlist {
+        display: none;
+      }
+      #lookupdiv.makebig .rlist {
+        display: flex;
+      }
+      #rlist .col{
+        padding: 5px;
+      }
+      #lookupdiv.makebig {
+        animation-name: makebig-animate;
+        animation-duration: 0.3s;
+        -webkit-animation-iteration-count: 1;
+        -webkit-animation-fill-mode: forwards;
+        position: fixed;
+        overflow: hidden;
+        z-index: 9999;
+      }
+
+      @keyframes makebig-animate {
+        0% {
+          top: 49vh;
+          left: 49vw;
+          height: 2vh;
+          width: 2vw;
+          background-color: #99d9ea00;
+        }
+        20% {
+          top: 40vh;
+          left: 40vw;
+          height: 20vh;
+          width: 20vw;
+          background-color: #99d9ea66;
+        }
+        40% {
+          top: 30vh;
+          left: 30vw;
+          height: 40vh;
+          width: 40vw;
+          background-color: #99d9ea22;
+        }
+        60% {
+          top: 20vh;
+          left: 20vw;
+          height: 60vh;
+          width: 60vw;
+          background-color: #99d9ea44;
+        }
+        80% {
+          top: 10vh;
+          left: 10vw;
+          height: 80vh;
+          width: 80vw;
+          background-color: #99d9ea88;
+        }
+        100% {
+          top: 0;
+          left: 0;
+          height: 100vh;
+          width: 100vw;
+          background-color: #99d9eacc;
+        }
+      }
+      #lookupdiv.makebig .close{
+        display: inline-block!important;
+      }
+      #lookupdiv.makebig .close{
+        display: inline-block!important;
+      }
+      #lookupdiv.makebig .rlist {
+        padding: 30px 0;
+        position: fixed;
+        top: 6rem;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        overflow: scroll;
+      }
+      #rlist .col .btn-dark {
+        font-size: 1.3rem;
+      }
+      /*End : Lookup form make big*/
+
+      .carousel-item {
+        height: calc(100vh - 67px);
+        min-height: 26rem;
+      }
+
+      .carousel-item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: auto;
+      }
+      .t-shadow-lg {
+        text-shadow: 0px 0px 5px black!important;
+      }
+      .t-shadow-sm {
+        text-shadow: 3px 2px 4px black!important;
+      }
+      #dreamHelp {
+        font-size: 1rem;
+        font-weight: 700;
+      }
+      textarea#dreamdesc {
+        height: 5rem;
+      }
+      textarea#dreamdesc~label {
+        height: 4rem;
+        top: unset;
+        bottom: 0;
+        padding-bottom: 3.5rem;
+      }
+      div#msglink {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1;
+      }
+      #linkdiv {
+        background-color: #1118;
+        border-radius: 0.5rem;
+      }
+      #start {
+        padding-top: 67px;
+      }
+      #start .card {
+        width: 100%;
+      }
+      #start .card-footer {
+        min-height: 4rem;
+      }
+      h2.featurette-heading {
+        font-size: calc(1.325rem + 4vw);
+        margin-top: 0;
+        font-weight: 400;
+      }
+      .lead {
+        text-align: justify;
+      }
+      #highlightsdiv, #highlightsdiv * {
+        transition: all .6s ease;
+      }
+      #highlightsdiv .card {
+        border:none;
+        background-color: transparent;
+      }
+
+      /*#todaymsg img {
+        width: 100%;
+        max-width: 100%;
+      }*/
+      #todaymsg img {
+        width: calc(100% - 1.5rem);
+        max-width: 100%;
+        padding: 1rem;
+        border: #80808042 solid 1px;
+        border-radius: 0.5rem;
+        margin: 20px 10px;
+      }
+
+      #alphabets{
+        overflow-x: scroll; 
+      }
+
+      .scroll-alphabets {
+        position: sticky; 
+        background: white; 
+        color: #6c757d;
+        padding: 13px 13px;
+        z-index: 111;
+      }
+
+      .scroll-alphabets:hover, .scroll-alphabets:focus, .scroll-alphabets:visited {
+        background: #6c757d; 
+        color: white;
+      }
+
+      .scroll-alphabets.left {
+        left: 0;
+      }
+
+      .scroll-alphabets.right {
+        right: 0;
+      }
+
+      #a2zlist {
+        overflow: auto;
+        height: 20rem;
+      }
+
+      #a2zlist ul {
+        list-style: none;
+        text-align: center;
+      }
+
+      #a2zlist ul li {
+        margin-top: 10px;
+      }
+
+      #a2zlist ul li a {
+        text-decoration: none!important;
+      }
+
+      #demo1 {
+        font-weight: 700;
+      }
+
+      #toTop {
+        position: fixed;
+        bottom: 9rem;
+        right: 1rem;
+        color: dodgerblue;
+        display: none;
+        opacity: 0;
+        transition: all .3s ease;
+      }
+
+      .boldred {
+        font-weight: 700;
+        color: #dc3545;
+      }
+      .mono {
+        font-family: monospace;
+      }
+      .maillink, .maillink:visited, .maillink:hover, .maillink:focus {
+        color: darkslategrey;
+        text-decoration: none;
+      }
+
+      @media (min-width: 576px) { 
+        h2.featurette-heading {
+          font-size: 50px;
+        }
+      }
+      @media (min-width: 768px) {
+        .navbar-light .navbar-nav .nav-link {
+          font-size: 20px;
+          font-weight: 300;
+        }
+        #start .card {
+          width: 41.66666667%!important;
+          float: right;
+          margin: 0 0 0 2rem;
+        }
+      }
+       
+    .highlight {
+        background: #3333;
+        color: yellowgreen;
+    }
+    </style>
+</head>
+<body id="body">
+<header>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+<div class="container-fluid">
+<a class="navbar-brand" href="/">
+<span class="visually-hidden">DreamLookUp</span>
+<img class="img-fluid" src="https://www.dreamlookup.com/assets2022/img/logo.webp" alt="DreamLookUp Logo">
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+<ul class="navbar-nav ms-auto mb-2 mb-md-0">
+<li class="nav-item">
+<a class="nav-link" href="https://www.dreamlookup.com/about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://www.dreamlookup.com/sources">Sources</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://www.dreamlookup.com/symbols">Symbols</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://www.dreamlookup.com/blog">Blog</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://www.dreamlookup.com/dreampath">DreamPath</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://www.dreamlookup.com/bizarre">Bizarre</a>
+</li>
+</ul>
+</div>
+</div>
+</nav> 
+</header>
+<main>
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img class="bd-placeholder-img" src="https://www.dreamlookup.com/assets2022/img/ZenGarden.webp" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" width="100%" height="100%" />
+<div class="container-fluid" id="lookupdiv">
+<div class="row">
+<div class="col">
+<button type="button" class="btn btn-danger close">&times;</button>
+<form id="lookupform" action="https://www.dreamlookup.com/search" method="post">
+<div class="input-group mb-3">
+<input type="text" name="query" class="form-control" placeholder="My dream was about..." id="lookupinput" autocomplete="off" required>
+<label class="input-group-text" for="lookupinput">Look up</label>
+</div>
+</form>
+</div>
+</div>
+<div class="row text-center rlist">
+<div class="col">
+<div class="container-fluid" id="rlist"></div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="carousel-caption text-start">
+<h1 class="t-shadow-lg">Symbolic Dream Interpretation Library</h1>
+<p class="t-shadow-sm">Everyone has dreams and every dreaming experience is unique and personal.</p>
+<p><a class="btn btn-primary more scrollsmooth" href="#start">More</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container marketing">
+
+<div class="row featurette" id="start">
+<div class="col">
+<div class="card d-none d-md-block">
+<img class="card-img-top hdreamimg" src="https://www.dreamlookup.com/assets2022/img/dreams.webp" role="img" alt="dreams" focusable="false" />
+<div class="card-footer fw-bold text-center hdreamtitle">
+Dream About
+</div>
+</div>
+<h2 class="featurette-heading">Symbolic Dream Interpretation Library</h2>
+<p class="lead">Everyone has dreams and every dreaming experience is unique and personal, some dreams contain vivid and memorable symbolic representations of reality while others can be quite surreal and elusive, but they all seem to have special meanings and important messages hidden deep inside. That is probably why so many of us are curious about their meaning and spend time searching for possible answers.</p>
+<div class="card d-md-none">
+<img class="card-img-top hdreamimg" src="https://www.dreamlookup.com/assets2022/img/dreams.webp" role="img" alt="dreams" focusable="false" />
+<div class="card-footer fw-bold text-center hdreamtitle">
+Dream About
+</div>
+</div>
+<p class="lead">
+There are no simple or universal answers to what each and every dream can possibly mean and sometimes we get confused or frustrated when we cannot find a good explanation, validate our subconscious experiences or come up with an instant answer, it is especially true when online dream interpretation resources are used. The most common approach to dream interpretation entails collecting and recording dream descriptions and their meanings which are explained with the help of practical everyday knowledge or past experience of others who may have experienced similar symbols and visions. Some dreams can have positive messages and some can be negative or upsetting, depending on the sources or the context, but these messages can surely motivate, inspire and challenge us to take a closer look at our lives.
+</p>
+</div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette" id="whydreamlookup">
+<div class="col">
+<h2 class="featurette-heading">Why DreamLookUp?</h2>
+<p class="lead">
+Our team devotes time and shares passion for refining and bringing together dream interpretation resources and dictionaries to make it quicker and easier for visitors to find concise, yet meaningful interpretations of visions, symbols and events experienced in their dreams.
+</p>
+<p class="lead">
+Our growing dream interpretation database is created using trusted and respected sources, including original dream psychology studies and publications by famous authors as well as some translated content of folklore and mysticism you will not find in one place anywhere else online.
+</p>
+<p class="lead">
+We are passionate about our work and hope you will become a part of our growing audience searching to have their dream meanings answered. Stay informed and prepared for what the future holds or how your past is important, learn what your subconscious mind is telling you, and we will provide you with tools and resources at your fingertips to have your questions answered.
+</p>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block" data-full-width-responsive="true" data-ad-client="ca-pub-8119149945328294" data-ad-slot="6517402366"></ins>
+<script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+</div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+<div class="col-12" id="todaymsg">
+<h2 class="featurette-heading">Today's Message</h2>
+</div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette" id="a2zdiv">
+<div class="col-md-7">
+<h2 class="featurette-heading">Dream Meanings A-Z</h2>
+<p class="lead">
+We have spent years sifting through dream interpretation literature to categorize and present dream meanings in a clear and easy to understand way. <b>Select a letter to find a dream symbol you are looking to interpret.</b> Don't worry, our experience in dream interpretation guarantees you will find answers to the most common symbolic visions dreamers usually search for.
+</p>
+</div>
+<div class="col-md-5">
+<div class="container-fluid">
+<div class="row">
+<div class="col d-flex p-0 flex-nowrap noscrollbar" id="alphabets">
+<button class="btn btn-sm btn-outline-secondary scroll-alphabets left d-none d-md-block" type="button">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+</svg>
+</button>
+<ul class="list-group list-group-horizontal">
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">A</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">B</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">C</button>
+ </li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">D</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">E</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">F</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">G</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">H</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">I</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">J</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">K</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">L</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">M</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">N</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">O</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">P</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">Q</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">R</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">S</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">T</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">U</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">V</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">W</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">X</button>
+</li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">Y</button>
+ </li>
+<li class="list-group-item">
+<button class="btn btn-sm btn-outline-secondary get-headers" type="button">Z</button>
+</li>
+</ul>
+<button class="btn btn-sm btn-outline-secondary scroll-alphabets right d-none d-md-block" type="button">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+</svg>
+</button>
+</div>
+</div>
+<div class="row p-3">
+<div id="a2zlist" class="col noscrollbar">
+<ul class="p-0">
+</ul>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+<div class="col" id="donatebox">
+<h2 class="featurette-heading text-start">Interpret My Dream!</h2>
+<p class="card-text lead">
+Having difficulties interpreting your recurring dream or almost gave up looking for that particular dream symbol or scenario you remember from the night before? Try our dream interpretation section where we will research and analyze possible meanings for you based on symbolic vision you provide to us. You will receive your answer inside our online depository accessible by a temporary secure link within <span class="boldred text-warning">24 hours</span> after donating and submitting your dream interpretation request to us. <strong>Submit below!</strong>
+</p>
+<div class="d-flex justify-content-center w-100">
+<a class="btn btn-warning" href="https://paypal.com/donate/?business=webmaster@dreamlookup.com&currency_code=USD&amount=3">$3</a>
+&nbsp;&middot;&nbsp;
+<a class="btn btn-warning" href="https://paypal.com/donate/?business=webmaster@dreamlookup.com&currency_code=USD&amount=5">$5</a>
+&nbsp;&middot;&nbsp;
+<a class="btn btn-warning" href="https://paypal.com/donate/?business=webmaster@dreamlookup.com&currency_code=USD&amount=10">$10</a>
+&nbsp;&middot;&nbsp;
+<a class="btn btn-warning" href="https://paypal.com/donate/?business=webmaster@dreamlookup.com&currency_code=USD&amount=15">$15</a>
+&nbsp;&middot;&nbsp;
+<a class="btn btn-warning" href="https://paypal.com/donate/?business=webmaster@dreamlookup.com&currency_code=USD&amount=20">$20</a>
+</div>
+<form class="p-1 pt-3 text-center" action="https://www.paypal.com/donate" method="post" name="paypal">
+<input type="hidden" name="amount" value="3">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="business" value="webmaster@dreamlookup.com">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" alt="paypal image">
+</form>
+</div>
+</div>
+<hr class="featurette-divider">
+
+</div>
+
+<footer class="container mb-5 pt-2">
+<div class="row">
+<div class="col">
+</div>
+</div>
+<div class="row">
+<p class="col-md-6 text-center text-md-start">&copy; 2012-2022 DreamLookUp Team &middot; <a href="https://www.dreamlookup.com/index.php/home/disclaimer">Disclaimer</a> &middot; <a href="https://www.dreamlookup.com/index.php/home/terms">Terms</a></p>
+<p class="col-md-6 text-center text-md-end">
+Designed & developed By
+<a href="https://fb.me/mandalsoftwares" target="_blank">
+<img class="img img-fluid" style="height: 2.5rem;" src="https://www.dreamlookup.com/assets2022/img/mandal_logo.png">
+</a>
+</p>
+</div>
+</footer>
+</main>
+<a id="toTop" title="To Top" href="#body" class="btn btn-sm rounded-circle bg-transparent scrollsmooth">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+<path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+</svg>
+</a>
+<script src="https://www.dreamlookup.com/assets2022/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+      function hdream(){
+          $.get('https://www.dreamlookup.com/index.php/home/instantData',
+            (data)=>{
+              var idata = JSON.parse(data+"");
+              $('.hdreamimg').attr('src', 'https://www.dreamlookup.com/assets/img/data/'+idata.dream.image);
+              $('.hdreamimg').attr('alt', idata.dream.alt_image+"");
+              $('.hdreamtitle').html( idata.dream.alt_image+"");
+            });
+
+          setTimeout(hdream, 17000);//17000
+      }
+      $(document).ready(function() {
+        hdream();
+
+        $.get('https://www.dreamlookup.com/index.php/home/getTodayMsg',
+          (data)=>{ 
+            dataobj = JSON.parse(data+"");
+            var finalbody = ""; 
+            if(dataobj.body.indexOf("<img") == -1) {
+              finalbody = '<p class="lead">'+dataobj.body+'</p>';
+            } else {
+              finalbody = dataobj.body;
+            }
+            $('#todaymsg').append(finalbody);
+        });
+      });
+    </script>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+        window.a2zscollstop = false;
+        $('#a2zlist').mouseenter((e)=>{window.a2zscollstop = true;});
+        $('#a2zlist').mouseleave((e)=>{window.a2zscollstop = false;});
+
+        window.a2zscroll = setInterval(function() {
+          var a2zdiv = $('#a2zlist');
+          var pos = a2zdiv.scrollTop();
+          if($('#a2zlist ul').height() <= 294 || window.a2zscollstop){
+            return true;
+          }
+          if($('#a2zlist ul').height() - 294 == pos){
+            a2zdiv.scrollTop(0);
+          }
+          else{
+            a2zdiv.scrollTop(pos + 1);
+          }
+        }, 80);
+        $('.get-headers').click(function(){
+          var letter = $(this).text();
+          $( '#a2zlist ul' ).text('');
+          $.ajax({
+            type: "POST",
+            url: "https://www.dreamlookup.com/index.php/home/getHeadersByLetterNew/",
+            data: {
+              letter: letter
+            },
+            success: function(data)
+            {
+              if ('error' == data){
+                $( '#a2zlist ul' ).text('<h3>An error just occured, please refresh the page.</h3>');
+              } else 
+              {
+                if (data.length > 2)
+                {
+                  result = $.parseJSON( data );
+                  $.each(result,function(index, item)
+                  {
+                    $( '#a2zlist ul' ).append('<li><a href="https://www.dreamlookup.com/categories/'+ item.header +'" >'+ item.header +'</a></li>');
+                  });
+                }
+                else {
+                  $( '#a2zlist ul' ).append('<em>No data found.</em>');
+                }
+              }
+            }
+          });
+        });
+
+
+        $( '.get-headers:first' ).trigger("click");
+
+        (function() {
+          function scrollHorizontally(e) {
+            e = window.event || e;
+            var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+            document.getElementById('alphabets').scrollLeft -= (delta * 40); // Multiplied by 40
+            e.preventDefault();
+          }
+          if (document.getElementById('alphabets').addEventListener) {
+            // IE9, Chrome, Safari, Opera
+            document.getElementById('alphabets').addEventListener('mousewheel', scrollHorizontally, false);
+            // Firefox
+            document.getElementById('alphabets').addEventListener('DOMMouseScroll', scrollHorizontally, false);
+          } else {
+            // IE 6/7/8
+            document.getElementById('alphabets').attachEvent('onmousewheel', scrollHorizontally);
+          }
+        })();
+
+        window.abtimer = null;
+        function clearab() {
+          clearTimeout(window.abtimer);
+          window.abtimer = null;
+        }
+        function ableft() {
+          document.getElementById('alphabets').scrollLeft -= 40;
+          clearab();
+          window.abtimer = setTimeout(function() {
+            ableft();
+          },100);
+        }
+        function abright() { 
+          document.getElementById('alphabets').scrollLeft += 40;
+          clearab();
+          window.abtimer = setTimeout(function() {
+            abright();
+          },100);
+        }
+        $('.scroll-alphabets.left').on('mousedown',(e)=>{
+          e.preventDefault();
+          ableft();
+        });
+        $('.scroll-alphabets.right').on('mousedown',(e)=>{
+          e.preventDefault();
+          abright();
+        });
+        $('.scroll-alphabets.left').on('touchstart',(e)=>{
+          e.preventDefault();
+          ableft();
+        });
+        $('.scroll-alphabets.right').on('touchstart',(e)=>{
+          e.preventDefault();
+          abright();
+        });
+        $('.scroll-alphabets.left').on('click',(e)=>{
+          e.preventDefault();
+          ableft();clearab();
+        });
+        $('.scroll-alphabets.right').on('click',(e)=>{
+          e.preventDefault();
+          abright();clearab();
+        });
+        $('.scroll-alphabets').on('mouseup',(e)=>{
+          e.preventDefault();
+          clearab();
+        });
+        $('.scroll-alphabets').on('mouseout',(e)=>{
+          e.preventDefault();
+          clearab();
+        });
+        $('.scroll-alphabets').on('touchend',(e)=>{
+          e.preventDefault();
+          clearab();
+        });
+        $('.scroll-alphabets').on('touchleave',(e)=>{
+          e.preventDefault();
+          clearab();
+        });
+        $('.scroll-alphabets').on('touchcancel',(e)=>{
+          e.preventDefault();
+          clearab();
+        });
+      });
+    </script>
+
+<script type="text/javascript">
+      
+      $(document).ready(function() {
+        document.querySelector('#lookupdiv').addEventListener('keydown', function(e) {
+            if(e.keyCode == 27) {
+                console.log('closing lookupdiv');
+                $('#lookupdiv button.close').trigger('click');
+            }
+        });
+        $("#lookupdiv").click((e)=>{
+          if(!$("#lookupdiv").hasClass('makebig') & $(e.target).is($('#lookupdiv input'))) {
+            $("#lookupdiv").addClass('makebig');
+          } else if($(e.target).is($('#lookupdiv .close'))){
+            $("#lookupdiv input").val('');
+            $('#lookupdiv button.close').trigger('focus');
+            $("#lookupdiv").removeClass('makebig');
+            $('#rlist').html('');
+          }
+        });
+      });
+
+      //delay function for search so that user can have time to type a proper query before hitting server
+      function searchdelay(callback, ms) {
+        var timer = 0;
+        return function() {
+          var context = this, args = arguments;
+          clearTimeout(timer);
+          timer = setTimeout(function () {
+            callback.apply(context, args);
+          }, ms || 0);
+        };
+      }
+      $('#lookupdiv input').keyup(searchdelay(
+        (e)=>{
+          if($("#lookupdiv input").val().length > 2) {
+            if(!$("#lookupdiv").hasClass('makebig') & $(e.target).is($('#lookupdiv input'))) {
+              $("#lookupdiv").addClass('makebig');
+            }
+            
+            $.get(
+              'https://www.dreamlookup.com/home/getSuggestionsNew/?term='+encodeURIComponent($("#lookupdiv input").val()),
+              (data)=>{
+                $('#rlist').html('');
+                rlist = JSON.parse(data+"");
+                for(i=0; i<rlist.length; i++) {
+                  $('#rlist').append(
+                    '<div class="row">'
+                    +'  <div class="col">'
+                    +'    <a class="btn btn-dark" href="https://www.dreamlookup.com/categories/'+(rlist[i]['header']==''?'uncategorised':rlist[i]['header'])+'?target='+rlist[i]['short']+'">'+rlist[i]['short']+'</a>'
+                    +'  </div>'
+                    +'</div>'
+                  );
+                  //https://www.dreamlookup.com/index.php/home/category/CLOTHES?page=4&record=16233
+                }
+                $('#rlist a.btn-dark').each(function(){
+                    var search_value = $("#lookupdiv input").val();
+                    var search_regexp = new RegExp(search_value, "gi");
+                    let txtstr = $(this).html().replace(search_regexp, '<span class = "highlight">'+search_value+"</span>");
+                    if(txtstr.charAt(0)=='<') {
+                        txtstr = $(this).html().replace(search_regexp, '<span class = "highlight">'+(search_value.charAt(0).toUpperCase()+search_value.slice(1))+"</span>");
+                    }
+                    $(this).html(txtstr);
+                });
+              }
+            );
+          }
+      }, 500));
+    </script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        $('.scrollsmooth.get-headers').on('click', function(event) {
+          if (this.hash !== "") {
+              var tarr = new Array('A','BUTTON');
+              if(tarr.includes(this.nodeName)) {
+                  event.preventDefault();
+              }
+
+            var hash = this.hash;
+            window.location.hash = '';
+            window.location.hash = hash;
+            $('html, body').animate({
+              scrollTop: $(window.location.hash).offset().top - 199
+            }, 'fast');
+          }
+          event.stopPropagation();
+        });
+
+        $('.scrollsmooth').on('click', function(event) {
+          if (this.hash !== "") {
+              var tarr = new Array('A','BUTTON');
+              if(tarr.includes(this.nodeName)) {
+                  event.preventDefault();
+              }
+
+            var hash = this.hash;
+            window.location.hash = '';
+            window.location.hash = hash;
+            $('html, body').animate({
+              scrollTop: $(window.location.hash).offset().top - 67
+            }, 'fast');
+          }
+        });
+
+        $(window).on('scroll',(e)=>{
+          if ($('body').scrollTop() > 20 || $('html').scrollTop() > 20) {
+            $('#toTop').css('display',"block");
+            $('#toTop').css('opacity',"1");
+          } else {
+            $('#toTop').css('display',"none");
+            $('#toTop').css('opacity',"0");
+          }
+        });
+
+      });
+    </script>
+<script type="text/javascript">
+      var infolinks_pid = 3176302;
+      var infolinks_wsid = 0;
+    </script>
+<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js">
+    </script>
+<script src="https://www.dreamlookup.com/assets2022/js/script.js"></script>
+</body>
+</html>
